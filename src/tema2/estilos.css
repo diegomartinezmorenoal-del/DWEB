@@ -1,0 +1,20 @@
+:root{--fondo:#eef3f1;--tinta:#1f2d2a;--verde:#2f6b4f;--verde-claro:#d9ece3;--borde:#b9cfc5}
+*{box-sizing:border-box}
+body{margin:0;padding:2rem 1rem;background:var(--fondo);color:var(--tinta);font-family:Georgia,"Times New Roman",serif;line-height:1.5}
+.tarjeta{max-width:540px;margin:0 auto;background:#fff;border:1px solid var(--borde);border-radius:10px;padding:1.75rem 2rem}
+h1{margin:0 0 1rem;font-size:1.6rem;color:var(--verde)}
+label{display:block;margin:.9rem 0 .25rem;font-weight:bold}
+input[type=number],input[type=text],select{width:100%;padding:.5rem;border:1px solid var(--borde);border-radius:6px;font-size:1rem}
+input[type=color]{width:60px;height:36px;padding:0;border:1px solid var(--borde)}
+button,.boton{display:inline-block;margin-top:1.25rem;padding:.6rem 1.4rem;background:var(--verde);color:#fff;border:0;border-radius:6px;font-size:1rem;cursor:pointer;text-decoration:none}
+button:hover,.boton:hover{background:#245640}
+button:focus-visible,.boton:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f0b429;outline-offset:2px}
+.resultado{font-size:1.2rem;background:var(--verde-claro);padding:1rem;border-radius:8px;text-align:center}
+.error{background:#fbe3e0;border:1px solid #d9776b;padding:1rem;border-radius:8px}
+table{width:100%;border-collapse:collapse;margin-top:1rem}
+th,td{border:1px solid var(--borde);padding:.5rem;text-align:center}
+th{background:var(--verde-claro)}
+td.acierto{background:#ffe08a;font-weight:bold}
+.grupo{display:flex;gap:.5rem;flex-wrap:wrap}
+.grupo input{width:70px}
+fieldset{border:1px solid var(--borde);border-radius:6px;margin-top:1rem}
